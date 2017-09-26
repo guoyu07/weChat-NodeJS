@@ -1,2 +1,12 @@
-# weChat-NodeJS
-develope wechat with the express framework of NodeJS d
+##### 微信公众号开发
+- 项目部署在阿里云ECS平台(Centos7.2)
+- 基于Nodejs(Express框架)构建的后台服务
+- 实现功能：
+  - 接入图灵机器人API，实现智能聊天
+  - 使用腾讯地图获取地理标志，实现通过地理定位获取当前天气情况
+  - 通过被动事件推送，实现网易云音乐歌曲寻找返回
+- 使用：
+  下载源码，进入根目录,运行：
+  ```
+  $ forever start ./bin/www
+  ```
