@@ -10,3 +10,4 @@
   ```
   $ forever start ./bin/www
   ```
+ - 详情可以参考 文章 [nodejs实现微信公众号基本事件推回复](http://www.jianshu.com/p/f96b9169eec4)
